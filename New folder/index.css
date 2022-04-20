@@ -1,0 +1,67 @@
+/*{
+	padding:0;
+	width:0;
+}*/
+body{
+	background:url(692078.jpg) no-repeat center center/cover;
+
+}
+/*login form*/
+.container{
+	display:flex;
+	flex-direction:column;
+	height:500px;
+	width:400px;
+	/*border:1px solid black;*/
+	margin:auto;
+	margin-top:50px;
+	/*padding:90px;*/
+	border-radius:25px;
+	align-items:center;
+	background-color:rgba(0, 0, 0, 0.5);
+	box-shadow:inset -5px -5px rgba(0, 0, 0, 0.5);
+}
+.container h1{
+	color:white;
+	font-size:2rem;
+	letter-spacing: 3px;
+	border-bottom:4px solid rgba(255,255,255,.5);
+	margin:50px;
+}
+
+/*box*/
+.login{
+	padding:20px;
+	border-radius:25px;
+	margin:20px;
+	width:65%;
+	border:none;
+	outline:none;
+	background-color: rgba(0, 0, 0, 0.5);
+	box-shadow:inset -3px -3px rgba(0, 0, 0, 0.5);
+	color:white;
+	font-size: 1rem;
+}
+#submit{
+	cursor:pointer;
+	padding:20px;
+	width:50%;
+	border-radius:25px;
+	margin:20px;
+	background-color:rgba(0, 0, 0, 0.5);
+	color:white;
+	margin-top:50px;
+	box-shadow:inset -3px -3px rgba(0, 0, 0, 0.5);
+	border:none;
+	outline:none;
+	font-size:1rem;
+}
+
+#submit:hover{
+	background-color:rgba(255,255,255,.1);
+	color:black;
+}
+::placeholder{
+	color:white;
+	opacity:0.7;
+}
